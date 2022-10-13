@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times
+# shellcheck disable=SC2034
+i=1
+while ((i < 11));
+do
+    echo "Best School"
+    ((i++))
+done
