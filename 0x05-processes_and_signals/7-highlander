@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script prints "to infinty and beyond indefinitly with delay of 2s"
+# shellcheck disable=SC2050
+
+trap hold SIGTERM
+function hold() {
+    echo "I am invincible!!!"
+}
+
+while [ 1 = 1 ]; do
+echo "To infinity and beyond"
+sleep 2
+done
