@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+cp /etc/hosts ~/host.test
+sed -i 's/127.0.0.1/127.0.0.2/g' ~/host.test
+sed -i '$a 8.8.8.8 \tfacebook.com' ~/host.test
+cp -f ~/host.test /etc/hosts.test
