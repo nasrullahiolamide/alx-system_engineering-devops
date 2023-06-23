@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# print all listening port with PID using them
-netstat -lp
